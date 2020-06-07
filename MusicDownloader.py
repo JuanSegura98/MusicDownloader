@@ -47,7 +47,6 @@ def tryCreateLink(driver, initTime):
         try:
             download_link = driver.find_element_by_xpath('/html/body/div[2]/div[1]/div[1]/div[3]/a[1]').get_property(
                 "href")
-            print(download_link)
         except NoSuchElementException:
             tryCreateLink(driver, initTime)
     return download_link
