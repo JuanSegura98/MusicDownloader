@@ -89,10 +89,10 @@ class newYoutubeTab:
 
         self.key = input('¿Descargar ' + "\033[1m" + self.file_name + "\033[0m" + '? (y)')
         if self.key == "":
-            urllib.request.urlretrieve(self.download_link, '/home/juans/Music/' + self.file_name + '.mp3')
+            urllib.request.urlretrieve(self.download_link, '/home/Music/' + self.file_name + '.mp3')
         else:
             if self.key[0] == 'y' or self.key[0] == 'Y' or self.key == "":
-                urllib.request.urlretrieve(self.download_link, '/home/juans/Music/' + self.file_name + '.mp3')
+                urllib.request.urlretrieve(self.download_link, '/home/Music/' + self.file_name + '.mp3')
             else:
                 print("Operación cancelada")
 
