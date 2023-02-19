@@ -1,8 +1,11 @@
 # MusicDownloader
-Allows direct YouTube to MP3 downloads from terminal with the following features:
+This is a sample project for practicing web scraping. It uses third-party websites that may be updated and thus the program will need maintenance. 
+The program allows direct YouTube to MP3 downloads from terminal with the following features:
   - Lets you pass a list of songs as an argument
   - Lets you make a simple, direct download (no confirmation) or a complete one, with multiple results to choose from
   - Focused on speed (no need to try torrents. Simple, straight-forward and working).
+  
+ Beware of the implications on the usage and testing of the software with licensed content.
 
 Requirements:
 1. Linux with python3 (probably lower versions work as well)
